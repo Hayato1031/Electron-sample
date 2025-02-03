@@ -1,0 +1,26 @@
+
+[nextron] Run renderer process: next -p 8888 renderer
+  ▲ Next.js 14.2.23
+  - Local:        http://localhost:8888
+
+ ✓ Starting...
+[nextron] Run main process: electron . 8888 --remote-debugging-port=5858 --inspect=9292
+Debugger listening on ws://127.0.0.1:9292/b968e7e2-83f9-4cfb-b852-b7b6e4928bd8
+For help, see: https://nodejs.org/en/docs/inspector
+App threw an error during load
+Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/hayatonakamura/Desktop/workspace/Personal/electron_des
+Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/disney_diary/node_modules/.pnpm/electron-store@10.0.1/node_modules/electron-store/index.js from /Users/h
+Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/disney_diary/node_modules/.pnpm/electron-store@10.0.1/node_modules/electron-store/index.js from /Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/disney_diary/app/background.js not supported.
+Instead change the require of index.js in /Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/d
+Instead change the require of index.js in /Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/disney_diary/app/background.js to a dynamic import() which is available in all CommonJS modules.
+    at c._load (node:electron/js2c/node_init:2:16955)
+    at webpackUniversalModuleDefinition (/Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/di
+    at webpackUniversalModuleDefinition (/Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/disney_diary/app/background.js:3:55)
+    at Object.<anonymous> (/Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/disney_diary/app
+    at Object.<anonymous> (/Users/hayatonakamura/Desktop/workspace/Personal/electron_desktop/disney_diary/app/background.js:10:3)
+ ✓ Ready in 973ms
+2025-02-01 17:43:14.460 Electron[90725:11186125] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-01 17:43:14.460 Electron[90725:11186125] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+DevTools listening on ws://127.0.0.1:5858/devtools/browser/0fcceb67-12e7-43dc-b0de-12745d1c3c82
+^C
